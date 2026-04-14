@@ -45,5 +45,20 @@ int main() {
 	else {
 		cout << "Not Found" << endl;
 	}
-	//artist로 찾기는 다음시간
+
+	string artist_name;
+	cout << "Enter The Artist Name: ";
+	cin >> artist_name;
+
+	vector<Music*> artistResult = myService.searchByArtist(artist_name);
+	if (artistResult.size() > 0) {
+		cout << "Found" << artistResult.size() << "songs by" << artist_name << " : " << endl;
+		for (int i = 0; i < artistResult.size(); i++) {
+			cout << artistResult[i]->getTitle() << endl;           //중요, artistResult[i]가 포인터이기 때문에 화살표(->)로 접근해줘야됨
+		}
+	}
+	else {
+		cout << "Not Found" << endl;
+	}
+	return 0;
 }

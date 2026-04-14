@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37111.16 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lec04_Stack_Class", "Lec04_Stack_Class\Lec04_Stack_Class.vcxproj", "{BAD5197C-BC22-4DF2-9872-2FB8F47956FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAD5197C-BC22-4DF2-9872-2FB8F47956FE}.Debug|x64.ActiveCfg = Debug|x64
+		{BAD5197C-BC22-4DF2-9872-2FB8F47956FE}.Debug|x64.Build.0 = Debug|x64
+		{BAD5197C-BC22-4DF2-9872-2FB8F47956FE}.Debug|x86.ActiveCfg = Debug|Win32
+		{BAD5197C-BC22-4DF2-9872-2FB8F47956FE}.Debug|x86.Build.0 = Debug|Win32
+		{BAD5197C-BC22-4DF2-9872-2FB8F47956FE}.Release|x64.ActiveCfg = Release|x64
+		{BAD5197C-BC22-4DF2-9872-2FB8F47956FE}.Release|x64.Build.0 = Release|x64
+		{BAD5197C-BC22-4DF2-9872-2FB8F47956FE}.Release|x86.ActiveCfg = Release|Win32
+		{BAD5197C-BC22-4DF2-9872-2FB8F47956FE}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA2ADE8F-9220-420A-945B-717A7A92AA72}
+	EndGlobalSection
+EndGlobal

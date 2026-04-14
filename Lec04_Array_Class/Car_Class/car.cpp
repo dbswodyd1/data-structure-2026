@@ -14,27 +14,20 @@ int main() {
 			else Car::speedUp();
 		}
 	};
-	Car myCar(0, "Genesis", 1);
-	Car yourCar(0, "hyundai", 1);
+	Car myCar(0, "Morning", 1);
+
 	// 2. 현재 상태 출력
 	myCar.display();
-	yourCar.display();
 	// 3. 속도 올리기 (5씩 증가)
 	myCar.speedUp();
 	myCar.speedUp();
-	yourCar.speedUp();
 
 	// 4. 기어 변경 (기본값 4단으로 변경됨)
 	myCar.changeGear();
-	yourCar.changeGear();
 	// 5. 변경된 상태 출력
 	myCar.display();
-	yourCar.display();
 		// 6. 주소 확인
 
 	myCar.whereAmI();
-
-	yourCar.whereAmI();
-
 	return 0;
 }
